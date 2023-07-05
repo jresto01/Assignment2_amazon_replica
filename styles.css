@@ -1,0 +1,155 @@
+*{
+    font-family: "Amazon Ember",Arial,sans-serif;
+    text-align: center;
+}
+
+
+h1{
+    text-align: left;
+    padding-left: 25px;
+    margin-top: 5px;
+    font-weight: 75;
+}
+
+h4{
+    color: #949494;
+    font-weight: lighter;
+    padding-top: 15px;
+    display: block;
+}
+
+input{
+    box-sizing: border-box;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .05);
+    display: block;
+    border: 1px solid rgb(166, 166, 166);
+    border-top-color: #949494;
+    border-radius: 3px;
+    margin:10px auto 10px;;
+    height: 35px;
+    max-width: 564px;
+    width: 90%;
+    text-align: left;
+    font-size: large;  
+}
+
+label{
+    text-align: left;
+    margin-right: 185px;
+    position: relative; 
+}
+
+ul{
+    text-align: left;
+    margin-top: 20px;
+    list-style: none;   
+}
+
+li {
+    list-style: none; 
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.frame{
+    position:relative;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 465px;
+    height: 355px;
+    background-color:rgba(255, 255, 255, 0.952);
+    border: 1px solid lightgrey;
+    border-radius: 3px; 
+}
+
+.footer{
+    text-align: center;
+    position: relative;
+    top: 85px;
+    padding-bottom: 15px;
+    font-size: small;
+    line-height: 25px;
+    display: block;
+}
+
+#continue{
+    background-color: #f7d118;
+    border-radius: 3px;
+    border: 1px solid rgba(166,166,166,166);
+    box-shadow: 0 1px 0 rgba(225, 225, 225, 0.05);
+    height: 35px;
+    width: 90%;
+    top:5px;
+    font-size: medium;
+   
+}
+
+#create{
+    background-color: rgb(228, 228, 228);
+    border-radius: 3px;
+    border: 1px solid rgb(184, 183, 183);
+    box-shadow: 0 1px 0 rgb(129, 129, 129);
+    height: 35px;
+    width: 430px;
+    font-size: medium;   
+}
+
+hr{
+    position: relative;
+    top: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    height: 2px ;
+    background-color:rgba(161, 161, 161, 0.781) ;
+    box-shadow: #949494;
+} 
+.lines{
+    position: relative;
+    max-width: 430px;
+    margin: 20px auto;
+    text-align: center;
+} 
+
+.lines:before{
+  content:" ";
+  display: block ;
+  height: 1px;
+  width: 145px;
+  position: absolute;
+  top: 70%;
+  left: 0;
+  background-color: #949494;
+  
+}
+
+.lines:after{
+    content:" ";
+    display: block ;
+    height: 1px;
+    width: 145px;
+    position: absolute;
+    top: 70%;
+    right: 0px;
+    background-color: #949494;
+}
+
+#create-link{
+    color: black;
+    font-display: black;
+}
+
+#privacy{
+    padding: 25px;
+}
+
+
+
